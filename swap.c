@@ -13,7 +13,6 @@ int main()
     printf("swapped\n");
     
     printf("a = %i, b = %i\n, YAY!", a, b);
-}
 
 void swap(int *x, int *y)
 {
