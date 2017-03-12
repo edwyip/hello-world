@@ -12,5 +12,5 @@ int main()
     b = a;
     printf("swapped\n");
     
-    printf("a = %i, b = %i\n", a, b);    
+    printf("a = %i, b = %i\n, YAY!", a, b);    
 }
