@@ -7,8 +7,10 @@ int main()
     printf("a = %i, b = %i\n", a, b);
     
     printf("swapping...\n");
-    
-    printf("swapped(not really)\n");
+    temp = a;
+    a = b;
+    b = a;
+    printf("swapped\n");
     
     printf("a = %i, b = %i\n", a, b);    
 }
